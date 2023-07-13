@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module project_pwm_peripheral(
+module tt_um_project_pwm_peripheral(
     input i_clk,
     input i_reset,
     input i_write_en,
