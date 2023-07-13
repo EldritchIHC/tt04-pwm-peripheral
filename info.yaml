@@ -58,8 +58,8 @@ documentation:
     - o_pwm2B
     - o_pwm3A
     - o_pwm3B
-    - none
-    - none
+
+  
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
     - io_data[7]
