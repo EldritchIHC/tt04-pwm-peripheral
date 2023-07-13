@@ -40,8 +40,6 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-   # - i_clk
-   # - i_reset
     - i_write_en
     - i_read_en
     - i_address[5]
