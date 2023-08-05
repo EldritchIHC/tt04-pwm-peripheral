@@ -9,7 +9,7 @@
 // Project Name: Opensource Advanced PWM Peripheral
 //////////////////////////////////////////////////////////////////////////////////
 
-`define DEBUG
+//`define DEBUG
 module project_pwm_peripheral_comparator(
     input wire i_clk,
     input wire i_reset,
