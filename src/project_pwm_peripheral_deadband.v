@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Univeristatea Politehnica Timisoara
+// Engineer: Medinceanu Paul-Catalin
 // 
 // Create Date: 28.06.2023 10:14:06
-// Design Name: 
+// Design Name: Deadband Generator
 // Module Name: project_pwm_peripheral_deadband
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Project Name: Opensource Advanced PWM Peripheral 
 //////////////////////////////////////////////////////////////////////////////////
 
 
