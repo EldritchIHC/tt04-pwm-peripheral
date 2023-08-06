@@ -2,7 +2,7 @@
 
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
-<img src="https://github.com/bat52/tt03-ddpm-pwm/blob/main/doc/ddpm.png">
+<img src="https://github.com/EldritchIHC/tt04-pwm-peripheral/blob/main/doc/gds_render.png">
 
 # Introduction
 
