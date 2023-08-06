@@ -27,6 +27,8 @@ TODO
 | D3 -      | --- | - S5                      |
 | A0 -      | --- | - LED0                      |
 | WR -      | --- | - LED1                      |
+
+
 ## Testbenches and Verification
 
 TODO
