@@ -1,6 +1,8 @@
+### Opensource PWM Peripheral in SKY130 PDK
+
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
-# Introduction
+## Introduction
 
 TODO
 
