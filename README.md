@@ -2,6 +2,8 @@
 
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
+<img src="https://github.com/bat52/tt03-ddpm-pwm/blob/main/doc/ddpm.png">
+
 # Introduction
 
 TODO
