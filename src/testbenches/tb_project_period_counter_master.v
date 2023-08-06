@@ -167,33 +167,5 @@ module tb_project_period_counter_master();
         else
             $display("Overall Mode Test Failed with %d errors",mode_test_flag);
             $stop();
-    //#######################################################################
-    /*
-        //Phase signal test 
-        tb_en = 1'b0;
-        idx = 0;
-        tb_phase  = 16'h0008; 
-        tb_mode = 2'b01;
-        tb_phase_en = 1; 
-        #2;
-        tb_reset = 1;
-        $display("Testing phase signal");
-        $display("Mode level is: %b", tb_mode);
-        #2;
-        tb_reset = 0; 
-        #2;
-        tb_phase_en = 0;
-        tb_en = 1'b1;
-        for( idx = 9; idx < 16; idx = idx + 1)
-        begin
-            #2;
-            if(tb_o_period != idx)
-                begin
-                $display("Phase Test Failed");
-                phase_test_flag = phase_test_flag + 1;
-                end
-            
-        end
-    */
     end
 endmodule
