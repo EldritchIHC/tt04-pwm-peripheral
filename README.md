@@ -17,7 +17,16 @@ TODO
 ## Interface
 
 TODO
-
+| Inputs    | --- | Outputs                   |
+| -----:    | --- | :------                   |
+| CLK -     | --- | - S0                   |
+| RST -     | --- | - S1                   |
+| D0 -      | --- | - S2                      |
+| D1 -      | --- | - S3                      |
+| D2 -      | --- | - S4                      |
+| D3 -      | --- | - S5                      |
+| A0 -      | --- | - LED0                      |
+| WR -      | --- | - LED1                      |
 ## Testbenches and Verification
 
 TODO
