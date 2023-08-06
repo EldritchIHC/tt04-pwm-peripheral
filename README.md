@@ -30,6 +30,9 @@ TODO
 | A0 -      | --- | - LED0                      |
 | WR -      | --- | - LED1                      |
 
+## Configuration
+
+TODO
 
 ## Testbenches and Verification
 
