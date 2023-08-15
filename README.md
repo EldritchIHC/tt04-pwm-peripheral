@@ -4,10 +4,12 @@
 
 <img src="https://github.com/EldritchIHC/tt04-pwm-peripheral/blob/main/doc/gds_render.png">
 
+
 # Introduction
 
 The purpose of this project is to develop an Opensource PWM Peripheral with advanced functions and configurations. These capabilities are needed mostly in Power Electronics, where fine control of the control signals are crucial. The two standout functions that I have implemented are the deadband and the synchronization between counters. The deadband is a pause between the falling edge and the rising edge of the complementary PWM signals. It is needed to prevent shorting the input voltage to ground or to achieve resonance. The synchronization option is aimed at three phase inverters and interleaved DC-DC converters.
-
+Testbenches for each module are available in the sources folder. The blackbox diagram of the project is presented below.
+<img src="https://github.com/EldritchIHC/tt04-pwm-peripheral/blob/main/doc/PWM%20Peripheral%20Block.png">
 ## Overview of the design
 
 TODO
