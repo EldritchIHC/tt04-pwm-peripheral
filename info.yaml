@@ -28,7 +28,7 @@ documentation:
   author:       "Medinceanu Paul-Catalin"       
   title:        "OpenSource PWM Peripheral"       
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
+  description:  "The purpose of this project is to develop an Opensource PWM Peripheral with advanced functions and configurations. These capabilities are needed mostly in Power Electronics, where fine control of the control signals are crucial. The two standout functions that I have implemented are the deadband and the synchronization between counters."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
@@ -40,24 +40,25 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - i_write_en
-    - i_read_en
     - i_address[5]
     - i_address[4]
     - i_address[3]
     - i_address[2]
     - i_address[1]
     - i_address[0]
+    - unused
+    - i_write_en
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
+    - unused
+    - unused 
     - o_pwm1A
     - o_pwm1B
     - o_pwm2A
     - o_pwm2B
     - o_pwm3A
     - o_pwm3B
-    - none
-    - none  
+
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
     - io_data[7]
