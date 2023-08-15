@@ -19,16 +19,16 @@ TODO
 ## Interface
 
 TODO
-| Inputs    | --- | Outputs                   |
-| -----:    | --- | :------                   |
-| CLK -     | --- | - S0                   |
-| RST -     | --- | - S1                   |
-| D0 -      | --- | - S2                      |
-| D1 -      | --- | - S3                      |
-| D2 -      | --- | - S4                      |
-| D3 -      | --- | - S5                      |
-| A0 -      | --- | - LED0                      |
-| WR -      | --- | - LED1                      |
+| Inputs        | Description | Outputs                   |
+| -----:        | --- | :------                   |
+| ena -         | --- | - S0                   |
+| clk -         | --- | - S1                   |
+| rst_n -       | --- | - S2                      |
+| ui_in[7:2] -  | --- | - S3                      |
+| ui_in[1] -    | --- | - S4                      |
+| ui_in[0] -    | --- | - S5                      |
+| ui_io[7:0]    | --- | - LED0                      |
+
 
 ## Configuration
 
