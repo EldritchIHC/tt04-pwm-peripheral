@@ -20,7 +20,7 @@ TODO
 
 TODO
 | Inputs        | Description                                        | Outputs        | Description
-| -----:        | ---                                                | :------        |
+| -----:        | ---                                                | ---       |:------
 | ena           | Enable the design(Unused)                          | uo_out[7:6]    | Unused, tied low
 | clk           | System clock                                       | uo_out[5]      | Output for PWM1A
 | rst_n         | Reset active low                                   | uo_out[4]      | Output for PWM1B
