@@ -36,12 +36,15 @@ TODO
 
 ## Configuration
 
-TODO
+The peripheral has multiple 8bit registers to configure each PWM module. The addresses are 6bit wide. The address map is available in the 'doc' folder. To configure the peripheric firstly set the write enable pin high and set the pins ui_in[7:2] with the desired address. After that set the ui_io[7:0] pins with the configuration needed to obtain the right behavior. For testing, the configutaion of the peripheral has been done using a Microblaze microcontroller(see below).
+A driver library written that runs on Raspberry Pico should be available for the final ASIC.
 
 ## Testbenches and Verification
 
-TODO
+Each module has been tested through a Verilog testbench. Behavioral and post synthesis simulations have been run in Vivado to check correct functionality. The testbench files are available in the 'src' folder. The design has been teste also using a Xilinx Nexys A7 FPGA. The peripheral has been tied to the GPIO of a Microblaze microcontroller and a driver library has been written in C using Vitis. These files can be found in the 'doc' folder. Extensive testing has been done using thie method.
 
 ## Known Issues And Limitations
+
+TODO
 
 TODO
