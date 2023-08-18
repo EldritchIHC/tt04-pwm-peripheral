@@ -212,7 +212,7 @@ module tt_um_eldritch_pwm_peripheral(
         .i_action_compare_a(w_pwm1A_action_register[5:4]),
         .i_action_compare_b(w_pwm1A_action_register[7:6]),
         .o_pwm(w_pwm1A),
-        .db_pwm()
+        //.db_pwm()
     );
     
     project_pwm_peripheral_comparator comparator1B(
@@ -228,7 +228,7 @@ module tt_um_eldritch_pwm_peripheral(
         .i_action_compare_a(w_pwm1B_action_register[5:4]),
         .i_action_compare_b(w_pwm1B_action_register[7:6]),
         .o_pwm(w_pwm1B),
-        .db_pwm()
+        //.db_pwm()
     );
     
     project_pwm_peripheral_comparator comparator2A(
@@ -244,7 +244,7 @@ module tt_um_eldritch_pwm_peripheral(
         .i_action_compare_a(w_pwm2A_action_register[5:4]),
         .i_action_compare_b(w_pwm2A_action_register[7:6]),
         .o_pwm(w_pwm2A),
-        .db_pwm()
+        //.db_pwm()
     );
     
     project_pwm_peripheral_comparator comparator2B(
@@ -260,7 +260,7 @@ module tt_um_eldritch_pwm_peripheral(
         .i_action_compare_a(w_pwm2B_action_register[5:4]),
         .i_action_compare_b(w_pwm2B_action_register[7:6]),
         .o_pwm(w_pwm2B),
-        .db_pwm()
+       // .db_pwm()
     );
     
     project_pwm_peripheral_comparator comparator3A(
@@ -276,7 +276,7 @@ module tt_um_eldritch_pwm_peripheral(
         .i_action_compare_a(w_pwm3A_action_register[5:4]),
         .i_action_compare_b(w_pwm3A_action_register[7:6]),
         .o_pwm(w_pwm3A),
-        .db_pwm()
+        //.db_pwm()
     );
     
     project_pwm_peripheral_comparator comparator3B(
@@ -292,7 +292,7 @@ module tt_um_eldritch_pwm_peripheral(
         .i_action_compare_a(w_pwm3B_action_register[5:4]),
         .i_action_compare_b(w_pwm3B_action_register[7:6]),
         .o_pwm(w_pwm3B),
-        .db_pwm()
+        //.db_pwm()
     );
     //Deadband
     project_pwm_peripheral_deadband deadband1A(
