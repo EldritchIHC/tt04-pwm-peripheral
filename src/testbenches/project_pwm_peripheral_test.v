@@ -9,14 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Description: Nexys A7 Test Verilog Design, use with the uploaded constraint file
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -25,8 +18,6 @@ module project_pwm_peripheral_test(
     input i_reset,
     input i_en,
     input [1:0] i_mode,
-    //output db_sync1,
-    //output db_sync2,
     output o_pwm1,
     output o_pwm2,
     output o_pwm3
@@ -165,6 +156,4 @@ module project_pwm_peripheral_test(
         .i_fed(4'h0),
         .o_pwm(o_pwm3)
     );
-    assign db_sync1 = w_sync1;
-    assign db_sync2 = w_sync2;
 endmodule
