@@ -16,7 +16,7 @@ jobs:
       - name: Build GDS
         uses: TinyTapeout/tt-gds-action@tt04
 
-gl_test:
+  gl_test:
     needs: gds
     runs-on: ubuntu-latest
     steps:
@@ -27,7 +27,7 @@ gl_test:
 
       - name: GL test
         uses: TinyTapeout/tt-gds-action/gl_test@tt04
-
+    
   viewer:
     needs: gds
     runs-on: ubuntu-latest
