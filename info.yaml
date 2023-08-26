@@ -32,11 +32,13 @@ documentation:
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Explain how your project works
+      The peripheral contains 3 counters, each of them with 2 comparators and 2 deadband generators. The counter is set to go to a value, the comparator is wired to the registers of the counter and decides when to set or clear the squarewave signal. By setting the counter to switch at different values, any duty cycle can be achieved.
+      The project can be configured to generate specific PWM signals by writing the desired configuration at the right address in the register file. The register map can be found in the 'doc' folder of the repo. 
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Explain how to test your project
+      To test the project, it should be tied through the input and bidirectional pins to a microcontroller. A C code(for a specific microcontroller) will be available on the repo to configure the peripheral through the serial terminal. After the setup is done, the PWM signals will be visible at the output pins.
+      An alternative way to configure the peripheral is through the onboard switches. The write enable is held high, the address is set next on the input pins and finally the data is set at the bidirectional pins. The process is repeated for each register of the respective PWM module.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
