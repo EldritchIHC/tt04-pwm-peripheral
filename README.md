@@ -22,10 +22,10 @@ A simplified schematic of the peripheral arhitecture can be seen below. Each mod
 ## Module description
 
 The peripheral is made out of the following modules:
--Register File
--Counters(A master and 2 slaves)
--Comparators(2 for each counter)
--Deadband Generators(1 for each comparator)
+- Register File
+- Counters(A master and 2 slaves)
+- Comparators(2 for each counter)
+- Deadband Generators(1 for each comparator)
 
 ## Interface
 
