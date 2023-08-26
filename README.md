@@ -53,5 +53,5 @@ The design has been tested also using a Xilinx Nexys A7 FPGA. The peripheral has
 
 ## Known Issues And Limitations
 
-  *The phase for the Up-Down counter mode isn't fully tested.
-  *If a comparator is set to toggle high(set) at a value and another to toggle low(reset) at the same level the edges may be delayed by a clock level. This defect can be avoided by checking the PWM signals at the output ot by using deadband. 
+  * The phase for the Up-Down counter mode isn't fully tested.
+  * If a comparator is set to toggle high(set) at a value and another to toggle low(reset) at the same level the edges may be delayed by a clock level. This defect can be avoided by checking the PWM signals at the output ot by using deadband. 
