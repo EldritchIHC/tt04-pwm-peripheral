@@ -12,6 +12,7 @@ The purpose of this project is to develop an Opensource PWM Peripheral with adva
 Testbenches for each module are available in the sources folder. The blackbox diagram of the project is presented below.
 
 <img src="https://github.com/EldritchIHC/tt04-pwm-peripheral/blob/main/doc/PWM%20Peripheral%20Block.png">
+
 ## Overview of the design
 
 TODO
@@ -36,7 +37,7 @@ TODO
 
 ## Configuration
 
-The peripheral has multiple 8bit registers to configure each PWM module. The addresses are 6bit wide. The address map is available in the 'doc' folder. To configure the peripheric firstly set the write enable pin high and set the pins ui_in[7:2] with the desired address. After that set the ui_io[7:0] pins with the configuration needed to obtain the right behavior. For testing, the configutaion of the peripheral has been done using a Microblaze microcontroller(see below).
+The peripheral has multiple 8bit registers to configure each PWM module. The addresses are 6bit wide. The address map is available in the 'doc' folder. To configure the peripheric firstly set the write enable pin high and set the pins ui_in[7:2] with the register address. After that set the ui_io[7:0] pins with the configuration needed to obtain the desired behavior. For testing, the configuration of the peripheral has been done using a Microblaze microcontroller(see below).
 A driver library written that runs on Raspberry Pico should be available for the final ASIC.
 
 ## Testbenches and Verification
@@ -47,6 +48,5 @@ The design has been tested also using a Xilinx Nexys A7 FPGA. The peripheral has
 
 ## Known Issues And Limitations
 
-TODO
-
-TODO
+The phase for the Up-Down counter mode isn't fully tested.
+If a comparator is set to toggle high(set) at a value and another to toggle low(reset) at the same level the edges may be delayed by a clock level. This defect can be avoided by checking the PWM signals at the output ot by using deadband. 
