@@ -28,7 +28,7 @@ documentation:
   author:       "Medinceanu Paul-Catalin"       
   title:        "OpenSource PWM Peripheral"       
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "The purpose of this project is to develop an Opensource PWM Peripheral with advanced functions and configurations. These capabilities are needed mostly in Power Electronics, where fine control of the control signals are crucial. The two standout functions that I have implemented are the deadband and the synchronization between counters."      # Short description of what your project does
+  description:  "The purpose of this project is to develop an Opensource PWM Peripheral with advanced functions and configurations. These capabilities are needed mostly in Power Electronics, where fine tuning of the control signals is crucial. The two standout functions that I have implemented are the deadband and the synchronization between counters."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
@@ -38,7 +38,7 @@ documentation:
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
       To test the project, it should be tied through the input and bidirectional pins to a microcontroller. A C code(for a specific microcontroller) will be available on the repo to configure the peripheral through the serial terminal. After the setup is done, the PWM signals will be visible at the output pins.
-      An alternative way to configure the peripheral is through the onboard switches. The write enable is held high, the address is set next on the input pins and finally the data is set at the bidirectional pins. The process is repeated for each register of the respective PWM module.
+      An alternative way to configure the peripheral is through the onboard switches. The write enable is held high, the address is set next on the input pins and finally the data is set at the bidirectional pins. The process is repeated for each register of the PWM module in use.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
