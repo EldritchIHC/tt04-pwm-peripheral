@@ -41,7 +41,9 @@ A driver library written that runs on Raspberry Pico should be available for the
 
 ## Testbenches and Verification
 
-Each module has been tested through a Verilog testbench. Behavioral and post synthesis simulations have been run in Vivado to check correct functionality. The testbench files are available in the 'src' folder. The design has been teste also using a Xilinx Nexys A7 FPGA. The peripheral has been tied to the GPIO of a Microblaze microcontroller and a driver library has been written in C using Vitis. These files can be found in the 'doc' folder. Extensive testing has been done using thie method.
+For starters, each module has been tested through a Verilog testbench. Behavioral and post synthesis simulations have been run in Vivado to check correct functionality. The testbench files are available in the 'src' folder. At a later stage, a cocotb testbench has been written to verify the peripheral through assertions. In this file, the desired configurations are written to the register and then read to check if the right values have been saved. At the end of the configuration, three pairs of 25% duty PWM signals with 120 degrees of phase between them should be visible. This test has been run on the Verilog and gatelevel netlist.
+<img src="https://github.com/EldritchIHC/tt04-pwm-peripheral/blob/main/doc/gatelevel_gtk.png">
+The design has been tested also using a Xilinx Nexys A7 FPGA. The peripheral has been tied to the GPIO of a Microblaze microcontroller and a driver library has been written in C using Vitis. These files can be found in the 'doc' folder. Extensive testing has been done using thie method.
 
 ## Known Issues And Limitations
 
