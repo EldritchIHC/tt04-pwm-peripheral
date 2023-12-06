@@ -17,7 +17,7 @@ Testbenches for each module are available in the sources folder. The blackbox di
 
 A simplified schematic of the peripheral arhitecture can be seen below. Each module is configured by bits from the register file. Their function depends also on registers from other modules. For example the comparator's action is decided by values from the register file, but it also uses the counter register to generate the squarewave.
 
-<img src="https://github.com/EldritchIHC/tt04-pwm-peripheral/blob/main/doc/PWM%20Peripheral%20Arhitecture.png">
+<img src="https://github.com/EldritchIHC/tt04-pwm-peripheral/blob/main/doc/PWM%20Peripheral%20Arhitecture%20.png">
 
 ## Module description
 
